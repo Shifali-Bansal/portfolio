@@ -740,5 +740,11 @@
     .section-4{
       height:800px;
     }
+    .about .title{
+      padding-top: 0;
+    }
+    .about .title::after{
+      padding-bottom: 4px;
+    }
 }
   /* End of Responsiveness */
