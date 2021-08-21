@@ -724,5 +724,14 @@
     .about .about-content .right .text{
         font-size: 21px;
     }
+     .about .about-content .left img{
+      height:400px;
+    }
+    .about .about-content .right .text a{
+      padding-bottom: 88px;
+    }
+    .section-5 .copyright{
+      padding-bottom: 0;
+    }
 }
   /* End of Responsiveness */
