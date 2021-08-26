@@ -24,7 +24,6 @@ const mainFn = () => {
             navbarLinks[i].classList.add("change");
         }
     });
-
     if (window.pageYOffset + window.innerHeight >= progress.offsetTop) {
         document.querySelectorAll(".progress-percent").forEach((el, i) => {
             el.style.width = `${progressBarPercents[i]}%`;
@@ -33,15 +32,7 @@ const mainFn = () => {
         });
     }
 };
-
 mainFn();
-
-window.addEventListener("resize", () => {
-    window.location.reload();
-});
-
-
-
 // typing text animation script
 var typed = new Typed(".typing", {
     strings: ["Student", "Developer", "Learner"],
@@ -49,7 +40,6 @@ var typed = new Typed(".typing", {
     backSpeed: 140,
     loop: true
 });
-
 var typed = new Typed(".typing-2", {
     strings: ["Student", "Developer", "Learner"],
     typeSpeed: 130,
